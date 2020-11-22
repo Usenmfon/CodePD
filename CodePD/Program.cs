@@ -31,12 +31,14 @@ namespace CodePD
                     Console.WriteLine($"I am {name} age {age} from {country}");
                 }
             }
+
         static void Main(string[] args)
         {
             African a1 = new African("Usenmfon");
             a1.Data("Samuel",24,"Nigeria");
             IShape c = new Circle();
             c.Draw();
+            Console.WriteLine("Added a line of action");
         }
     }
 }
